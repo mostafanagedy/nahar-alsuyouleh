@@ -1,5 +1,5 @@
-/* 
-    Design System Variables 
+/*
+    Design System Variables
 */
 :root {
     --primary-color: #0d1b2a;
@@ -18,8 +18,8 @@
     --transition: all 0.3s ease;
 }
 
-/* 
-    Reset & Base Styles 
+/*
+    Reset & Base Styles
 */
 * {
     margin: 0;
@@ -49,8 +49,8 @@ ul {
     padding: 0 20px;
 }
 
-/* 
-    Typography 
+/*
+    Typography
 */
 h1,
 h2,
@@ -59,8 +59,8 @@ h3 {
     margin-bottom: 15px;
 }
 
-/* 
-    Buttons 
+/*
+    Buttons
 */
 .btn {
     display: inline-flex;
@@ -100,8 +100,8 @@ h3 {
     color: var(--primary-color);
 }
 
-/* 
-    Header 
+/*
+    Header
 */
 header {
     position: fixed;
@@ -135,8 +135,8 @@ header {
     filter: brightness(1.1) contrast(1.2);
 }
 
-/* 
-    Hero Section 
+/*
+    Hero Section
 */
 .hero {
     position: relative;
@@ -217,8 +217,8 @@ header {
     margin-bottom: 30px;
 }
 
-/* 
-    Features Section 
+/*
+    Features Section
 */
 .features {
     padding: 60px 0;
@@ -270,8 +270,8 @@ header {
     color: var(--primary-color);
 }
 
-/* 
-    Gallery Section 
+/*
+    Gallery Section
 */
 .gallery {
     padding: 60px 0;
@@ -339,8 +339,8 @@ header {
     transform: scale(1.05);
 }
 
-/* 
-    Pricing Section 
+/*
+    Pricing Section
 */
 .pricing {
     padding: 60px 0;
@@ -401,12 +401,12 @@ header {
 .options-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 20px;
 }
 
 @media (min-width: 576px) {
     .options-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
@@ -426,8 +426,8 @@ header {
     color: var(--text-light);
 }
 
-/* 
-    Main Footer 
+/*
+    Main Footer
 */
 footer {
     background-color: var(--primary-color);
@@ -476,7 +476,7 @@ footer {
     }
 }
 
-/* 
+/*
     Sticky Bottom Bar (Mobile)
 */
 .sticky-bottom-bar {
